@@ -24,4 +24,14 @@ class Queue {
             size--;
         }
     }
+
+    void print(){
+        if (size == 0){
+            cout << "esta vacia la cola" << endl;
+            return; 
+        }
+        else {
+            
+        }
+    }
 }
