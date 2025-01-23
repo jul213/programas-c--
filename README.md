@@ -1,4 +1,4 @@
-# programas-c++
+# programas c++
 
 repositorios para programas en c++
 
