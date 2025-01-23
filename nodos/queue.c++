@@ -31,7 +31,10 @@ class Queue {
             return; 
         }
         else {
-            
         }
+            for (int i=0; i<size; i++){
+                cout << queue[i] << "<---";
+            }
+            cout << endl;
     }
 }
