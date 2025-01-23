@@ -18,8 +18,10 @@ class Queue {
         }
         else{
             for (int i=0; i<size -1; i++){
-                
+                queue[i] = queue[i + 1];
+
             }
+            size--;
         }
     }
 }
