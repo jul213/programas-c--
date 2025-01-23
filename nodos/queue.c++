@@ -43,3 +43,10 @@ class Queue {
         size++;
     }
 }
+
+int main() {
+    Queue q;
+    q.Add(20); q.Add(30); q.Add(40); q.Add(5);
+    q.print();
+    return 0;
+}
