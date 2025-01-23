@@ -37,4 +37,9 @@ class Queue {
             }
             cout << endl;
     }
+
+    void Add(int valor){
+        queue[i] = valor;
+        size++;
+    }
 }
