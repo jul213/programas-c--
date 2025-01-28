@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class fabrica{
+class Fabrica{
     public:
 
         fabrica(int r,string c,string m,string mr,string p){
