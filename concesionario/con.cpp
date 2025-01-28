@@ -5,7 +5,7 @@ using namespace std;
 class fabrica{
     public:
 
-        fabrica(r,c,m,mr,p){
+        fabrica(int r,string c,string m,string mr,string p){
             ruedas = r;
             color = c;
             modelo = m;
