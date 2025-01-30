@@ -57,6 +57,7 @@ class Queue {
         return resultado;
         
 }
+}
 
 int main() {
     Queue q;
@@ -64,3 +65,4 @@ int main() {
     q.print();
     return 0;
 }
+
