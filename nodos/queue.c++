@@ -43,7 +43,8 @@ class Queue {
         size++;
     }
 
-    operator+(const Queue){
+    operator+(const Queue&q){
+        Queue resultado;
         
 }
 
