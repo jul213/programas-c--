@@ -46,9 +46,11 @@ class Queue {
     operator+(const Queue&q){
         Queue resultado;
 
-        for (int i=0;this->size;i++){
+        for (int i=0;i<this->size;i++){
             resultado.add(queue[i]);
         }
+
+        for (int i=0;i<q.size)
         
 }
 
