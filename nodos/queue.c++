@@ -42,6 +42,9 @@ class Queue {
         queue[i] = valor;
         size++;
     }
+
+    operator+(const Queue){
+        
 }
 
 int main() {
