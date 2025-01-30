@@ -11,6 +11,10 @@ class Queue {
         queue = new int[50];
     }
 
+    ~Queue(){
+        delete[] queue;
+    }
+
     void remove(){
         if (size == 0){
             cout << "la cola esta vacia" << endl;
