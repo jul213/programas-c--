@@ -50,7 +50,11 @@ class Queue {
             resultado.add(queue[i]);
         }
 
-        for (int i=0;i<q.size)
+        for (int i=0;i<q.size;i++){
+            resultado.add(Queue.q[i]);
+        }
+
+        return resultado;
         
 }
 
