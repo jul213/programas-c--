@@ -44,7 +44,7 @@ protected:
     }
 
     void Add(int valor){
-        queue[i] = valor;
+        queue[size] = valor;
         size++;
     }
 
