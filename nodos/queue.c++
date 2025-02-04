@@ -56,7 +56,7 @@ protected:
         }
 
         for (int i=0;i<q.size;i++){
-            resultado.Add(queue.q[i]);
+            resultado.Add(q.queue[i]);
         }
 
         return resultado;
