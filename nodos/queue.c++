@@ -52,11 +52,11 @@ protected:
         Queue resultado;
 
         for (int i=0;i<this->size;i++){
-            resultado.add(queue[i]);
+            resultado.Add(queue[i]);
         }
 
         for (int i=0;i<q.size;i++){
-            resultado.add(queue.q[i]);
+            resultado.Add(queue.q[i]);
         }
 
         return resultado;
