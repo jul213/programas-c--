@@ -75,7 +75,7 @@ class Queue2 : public Queue {
             cout << queue[i] << endl;
             }
         }
-}
+};
 int main() {
     Queue q;
     q.Add(20); q.Add(30); q.Add(40); q.Add(5);
