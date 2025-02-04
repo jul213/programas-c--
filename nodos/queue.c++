@@ -61,7 +61,9 @@ class Queue {
         return resultado;
         
 }
-}
+};
+
+
 
 int main() {
     Queue q;
