@@ -15,7 +15,7 @@ class Queue {
         delete[] queue;
     }
 
-    virtual void remove(){
+     void remove(){
         if (size == 0){
             cout << "la cola esta vacia" << endl;
             return;
@@ -29,7 +29,7 @@ class Queue {
         }
     }
 
-    void print(){
+    virtual void print(){
         if (size == 0){
             cout << "esta vacia la cola" << endl;
             return; 
