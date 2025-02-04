@@ -48,7 +48,7 @@ protected:
         size++;
     }
 
-    void operator+(const Queue&q){
+    Queue operator+(const Queue&q){
         Queue resultado;
 
         for (int i=0;i<this->size;i++){
