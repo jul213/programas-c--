@@ -66,7 +66,7 @@ protected:
 
 class Queue2 : public Queue {
     public:
-    void print(){
+    void print() override{
         if (size == 0){
             cout << "la cola esta vacia" << endl;
             return;
