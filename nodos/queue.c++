@@ -63,8 +63,18 @@ class Queue {
 }
 };
 
-
-
+class Queue2 : public Queue {
+    public:
+    void print(){
+        if (size == 0){
+            cout << "la cola esta vacia" << endl;
+            return;
+            }
+        for (int i=0; i<size; i++){
+            cout << queue[i] << endl;
+            }
+        }
+}
 int main() {
     Queue q;
     q.Add(20); q.Add(30); q.Add(40); q.Add(5);
