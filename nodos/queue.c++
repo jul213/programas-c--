@@ -15,7 +15,7 @@ class Queue {
         delete[] queue;
     }
 
-    void remove(){
+    virtual void remove(){
         if (size == 0){
             cout << "la cola esta vacia" << endl;
             return;
